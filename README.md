@@ -20,7 +20,7 @@ For example, if your text message is `/start@yourbot Hello world!`, the
 To use this module in your Telegraf app, require it and pass it to app.use.
 
 ```javascript
-const commandParts = require('telegraf-command-parts');
+const commandParts = require('@satsczar/telegraf-command-parts');
 
 app.use(commandParts());
 ```
